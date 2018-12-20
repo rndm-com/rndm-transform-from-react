@@ -1,0 +1,40 @@
+{
+  "name": "@rndm/transform-from-react",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "scripts": {
+    "example": "node_modules/.bin/babel-node cli/index.js example"
+  },
+  "description": "RNDM Transformer: React. Transform React into RNDM JSON",
+  "homepage": "https://github.com/rndm-com/rndm-transform-from-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndm-com/rndm-transform-from-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rndm-com/rndm-transform-from-react/issues"
+  },
+  "bin": {
+    "rndm-transform-from-html": "node_modules/.bin/babel-node cli/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.2.0",
+    "@rndm/babel-node-modules": "^0.1.0",
+    "commander": "^2.19.0",
+    "console-stamp": "^0.2.7",
+    "lodash": "^4.17.11",
+    "metro-react-native-babel-preset": "^0.51.0",
+    "react": "16.7.0-alpha.2",
+    "react-art": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
+  },
+  "devDependencies": {}
+}

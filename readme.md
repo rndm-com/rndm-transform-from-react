@@ -158,7 +158,7 @@ The plugin manager inside the transformer will them re-map the display names to 
 
 Both the default and the Named 'Examples' export are required for a plugin to be used in the transformer.
 
-**IMPORTANT:** If you are working towards a cross platform soltion, it is HIGHLY recommended that you use this in conjunction with the [React Native Plugin](https://github.com/rndm-com/rndm-transformer-plugin-react-native) and the [RNDM React XP](https://github.com/rndm-com/rndm-react-xp) template. This will give you the greatest level of support as well as ensuring you are able to work across as many platforms as are included in the template!
+**IMPORTANT:** If you are working towards a cross platform solution, it is HIGHLY recommended that you use this in conjunction with the [React Native Plugin](https://github.com/rndm-com/rndm-transformer-plugin-react-native) and the [RNDM React XP](https://github.com/rndm-com/rndm-react-xp) template. This will give you the greatest level of support as well as ensuring you are able to work across as many platforms as are included in the template!
 
 ## Scripts
 

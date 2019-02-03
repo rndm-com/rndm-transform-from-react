@@ -1,8 +1,8 @@
-# RNDM Transformer: From React
+# [RNDM](https://www.rndm.com) Transformer: From React
 
 ## About
 
-This template is a transformer solution that allows you to write server side React code and transform it into JSON to be ingested and rendered by the [RNDM Renderer](https://github.com/rndm-com/rndm-render) hosted in your client application.
+This template is a transformer solution that allows you to write server side React code and transform it into JSON to be ingested and rendered by the [RNDM Renderer](https://www.rndm.com/docs/rndm-render) hosted in your client application.
 
 The concept of this is to allow simple transformation without having to manually write the JSON for the purpose of running a simple API driven component application.
 
@@ -41,7 +41,7 @@ const Element = () => (
 export default Element;
 ```
 
-The requirements are to generate a JSON object that describes the Element function that can be ingested by the [RNDM Renderer](https://github.com/rndm-com/rndm-render);
+The requirements are to generate a JSON object that describes the Element function that can be ingested by the [RNDM Renderer](https://www.rndm.com/docs/rndm-render);
 
 In order to do this, all we have to do is wrap the Element in the transformer function.
 
